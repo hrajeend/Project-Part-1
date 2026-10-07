@@ -25,6 +25,8 @@ How to run this script:
 Or click on the "Run Python File" button in VS Code (triangle at the top right).
 """
 
+import pandas as pd
+
 penguins = pd.read_csv("data/penguins.csv", na_values="NA")
 
 print("Loaded", len(penguins), "penguin records.")
